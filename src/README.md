@@ -1,29 +1,26 @@
-# Mergington High School Activities API
+# Mergington High School Activities
 
-A super simple FastAPI application that allows students to view and sign up for extracurricular activities.
+This project is a web application for managing extracurricular activities at Mergington High School. It allows students to view available activities, see the number of spots left, and sign up for activities using their email addresses. The application also displays a list of participants for each activity.
 
 ## Features
 
-- View all available extracurricular activities
-- Sign up for activities
+- **Activity List**: Displays all available activities with details such as description, schedule, and availability.
+- **Sign-Up Form**: Allows students to sign up for activities by providing their email.
+- **Participants Section**: Shows a list of participants already signed up for each activity.
+- **Responsive Design**: Ensures the application looks good on both desktop and mobile devices.
 
-## Getting Started
+## Technologies Used
 
-1. Install the dependencies:
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python (FastAPI)
+- **Styling**: Custom CSS for a clean and user-friendly interface
 
-   ```
-   pip install fastapi uvicorn
-   ```
+## How to Run
 
-2. Run the application:
-
-   ```
-   python app.py
-   ```
-
-3. Open your browser and go to:
-   - API documentation: http://localhost:8000/docs
-   - Alternative documentation: http://localhost:8000/redoc
+1. Ensure you have Python 3 and pip installed.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Run the application server.
+4. Open the application in your browser to interact with it.
 
 ## API Endpoints
 
